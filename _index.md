@@ -1,15 +1,29 @@
 ---
-description: illumos is a Unix operating system which provides next-generation 
-    features for downstream distributions, including advanced system debugging, 
-    next generation filesystem, networking, and virtualization options. 
-    illumos is developed by both volunteers and companies building products on top of the software. <br/>
-    illumos is an excellent base for both traditional and cloud-native deployments. <br/>
+description: The illumos project develops a Unix operating system core that was
+    originally derived from OpenSolaris, providing next-generation features for
+    downstream distributions, including advanced system debugging, next
+    generation filesystem, networking, and virtualization options.<p>
+    illumos is developed by both volunteers and companies building products
+    based on the illumos system.<p>
+    illumos is an excellent base for both traditional and cloud-native
+    deployments.<p>
 layout: stand
 logo: stands/illumos/logo.png
 new_this_year: |
   <p>Since last FOSDEM we had a couple of larger updates:</p>
   <ol>
-    <li>bHyve</li>
+    <li>bhyve finally went upstream, so all illumos distributions now get to
+    benefit from it.<p>
+    bhyve is a hypervisor running on Intel and AMD CPUs, providing fast
+    networking and disk access to guest machines. On Intel systems it also
+    supports PCI passthrough.
+    </li>
+    <li>NFS server support in zones</li>
+    <li>new CCID driver to natively support USB chip card readers and similar
+    devices like YubiKeys</li>
+    <li>ZFS encryption and several other improvements from OpenZFS</li>
+    <li>new and improved ksh93 for scripting and interactive use</li>
+    <li>improved AMD RyZen CPU support</li>
   </ol>
 showcase: |
   <p>Showcase 1</p>
