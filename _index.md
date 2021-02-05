@@ -2,6 +2,8 @@
 description: illumos is a Unix operating system which provides next-generation 
     features for downstream distributions, including advanced system debugging, 
     next generation filesystem, networking, and virtualization options. 
+    illumos is developed by both volunteers and companies building products on top of the software. <br/>
+    illumos is an excellent base for both traditional and cloud-native deployments. <br/>
 layout: stand
 logo: stands/illumos/logo.png
 new_this_year: |
