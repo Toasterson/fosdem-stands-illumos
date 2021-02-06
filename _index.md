@@ -33,7 +33,11 @@ new_this_year: |
   </ol>
 showcase: |
     Come and chat with illumos developers, users, and creators of distributions!
-    We'll be here to talk about illumos and answer questions.
+    We'll be here to talk about illumos and answer questions.<p>
+    We'll try to be around in the FOSDEM Matrix chat, but if you're like us and
+    prefer IRC, please visit us on #illumos-fosdem on freenode. If you don't
+    have an IRC client, try <a href="https://webchat.freenode.net">freenode's
+    webchat</a>.
 themes:
 - Operating systems
 title: illumos
