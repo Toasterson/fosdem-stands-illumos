@@ -18,17 +18,22 @@ new_this_year: |
     networking and disk access to guest machines. On Intel systems it also
     supports PCI passthrough.
     </li>
-    <li>NFS server support in zones</li>
-    <li>new CCID driver to natively support USB chip card readers and similar
-    devices like YubiKeys</li>
-    <li>ZFS encryption and several other improvements from OpenZFS</li>
-    <li>new and improved ksh93 for scripting and interactive use</li>
-    <li>improved AMD RyZen CPU support</li>
+    <li>The NFS server can now run in a zone, allowing for multi-tenancy NFS
+    server setups.<p>
+    Zones are a lightweight virtualization mechanism allowing running another,
+    completely isolated instance of the native OS on the same kernel. They were
+    introduced back in 2005, designed from the ground up to be secure.</li>
+    <li>ZFS now supports encryption, and there were several other improvements
+    coming from OpenZFS.</li>
+    <li>We got a new CCID driver to natively support USB chip card readers and
+    similar devices like YubiKeys.</li>
+    <li>We got an all-new and improved ksh93 for scripting and interactive use.</li>
+    <li>We improved our AMD CPU support for running on RyZen and Threadripper
+    CPUs.</li>
   </ol>
 showcase: |
-  <p>Showcase 1</p>
-  <p>Showcase 2</p>
-  <p>Showcase 3</p>
+    Come and chat with illumos developers, users, and creators of distributions!
+    We'll be here to talk about illumos and answer questions.
 themes:
 - Operating systems
 title: illumos
