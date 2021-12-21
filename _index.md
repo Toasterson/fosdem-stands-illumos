@@ -12,24 +12,12 @@ logo: stands/illumos/logo.png
 new_this_year: |
   <p>Since last FOSDEM we had a couple of larger updates:</p>
   <ol>
-    <li>bhyve finally went upstream, so all illumos distributions now get to
-    benefit from it.<p>
-    bhyve is a hypervisor running on Intel and AMD CPUs, providing fast
-    networking and disk access to guest machines. On Intel systems it also
-    supports PCI passthrough.
-    </li>
-    <li>The NFS server can now run in a zone, allowing for multi-tenancy NFS
-    server setups.<p>
-    Zones are a lightweight virtualization mechanism allowing running another,
-    completely isolated instance of the native OS on the same kernel. They were
-    introduced back in 2005, designed from the ground up to be secure.</li>
-    <li>ZFS now supports encryption, and there were several other improvements
-    coming from OpenZFS.</li>
-    <li>We got a new CCID driver to natively support USB chip card readers and
-    similar devices like YubiKeys.</li>
-    <li>We got an all-new and improved ksh93 for scripting and interactive use.</li>
-    <li>We improved our AMD CPU support for running on RyZen and Threadripper
-    CPUs.</li>
+    <li>VirtIO 9p file system support for bhyve.</li>
+    <li>Driver for the AWS Nitro ENA network device.</li>
+    <li>NVMe hotplug support has been implemented.</li>
+    <li>GCC 10 added as shadow compiler.</li>
+    <li>SPARC Support has been removed but OpenIndiana provides an SPARC
+    distribution.</li>
   </ol>
 showcase: |
     Come and chat with illumos developers, users, and creators of distributions!
